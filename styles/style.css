@@ -97,3 +97,200 @@ body {
   bottom: 40px;
   right: 80px;
 }
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #ffd6c5;
+  background-image: url("../images/images_sprint3_stage2/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  margin: 8px 0 32px;
+  padding: 15px 20px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #e96e3a;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 0;
+}
+
+.form__checkbox {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border: 1px solid #4f4f4f;
+  border-radius: 2px;
+  appearance: none;
+}
+
+.form__checkbox:checked {
+  background-color: #2a2a2a;
+  background-image: url("../images/images_sprint3_stage2/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  position: relative;
+  min-height: 350px;
+  box-sizing: border-box;
+  padding: 60px 80px;
+  overflow: hidden;
+  background-color: #d35722;
+  color: #ffffff;
+}
+
+.footer__circle {
+  position: absolute;
+  top: -128px;
+  left: -44px;
+  z-index: 0;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background-color: #e96e3a;
+}
+
+.footer__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social-title {
+  margin: 0 0 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer__social-link:hover {
+  color: #ffd6c5;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  position: relative;
+  z-index: 1;
+  margin: 108px 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff976b;
+}
